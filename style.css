@@ -1,0 +1,54 @@
+.container{
+    display: flex;
+    align-items: center;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 50px;
+    width: 50%;
+    margin-left: 21%;
+    background-color:rgba(15, 15, 139, 0.87);
+    justify-content: space-between;
+}
+
+table,th,td{
+    border: 2px solid black;
+    width: 50%;
+    margin-left: 25%;
+    text-align: center;
+    border-collapse: collapse;
+    padding: 3px;
+}
+/* button{
+    transform: translate(1700%, -100%);
+} */
+.container button{
+    background-color: whitesmoke;
+    outline: 0;
+    border-radius: 5px;
+    border: none;
+    padding: 5px 10px;
+}
+
+input[type="text"]{
+    width: 50%;
+    outline: 0;
+    border-radius: 5px;
+    border: none;
+    padding: 5px;
+}
+th{
+    background-color:rgba(15, 15, 139, 0.87);
+    color: whitesmoke;
+}
+button{
+    border: none;
+    border-radius: 5px;
+    outline: 0;
+}
+input[type="date"]{
+    width: 20%;
+    outline: 0;
+    border-radius: 5px;
+    border: none;
+    padding: 3px;
+}

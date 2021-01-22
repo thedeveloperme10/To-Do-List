@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form id="container" class="container">
+        <label for="addtodo" style="color: whitesmoke;">Add To-Do</label>
+        <input type="text" placeholder="Add item to the list" id="addtodo">
+        <input type="date" id="date">
+        <button type="submit">Add Item</button>
+    </form><br><br>
+    <table id="myTable">
+        <tr>
+            <th>To-DO List</th>
+            <th>Date</th>
+            <th>Delete Value</th>
+        </tr>
+        <tbody id="result" class="container2"></tbody>
+    </table>
+    <script src="script.js"></script>
+</body>
+</html>
