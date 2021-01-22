@@ -1,4 +1,4 @@
-/* *{
+*{
     box-sizing: border-box;
 }
 .container{
@@ -11,7 +11,7 @@
     margin-left: 21%;
     background-color:rgba(15, 15, 139, 0.87);
     justify-content: space-between;
-}*/
+}
 
 table,th,td{
     border: 2px solid black;
@@ -57,14 +57,3 @@ input[type="date"]{
     padding: 3px;
     margin-left: 10px;
 } 
-
-.container{
-    border: 10px solid black;
-    padding: 10px;
-    margin: 0 auto;
-    width: 300px;
-    text-align: center;
-    background-color: black;
-    color: white;
-    font-size: x-small;
-}
