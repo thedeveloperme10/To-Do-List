@@ -9,15 +9,20 @@
 <body>
     <form id="container" class="container">
         <label for="addtodo" style="color: whitesmoke;margin-left:25px;">Add To-Do</label><br>
-        <input type="text" placeholder="Add item to the list" id="addtodo">
-        <input type="date" id="date"><br>
-        <button type="submit" style="margin-left: 140px; margin-top: 10px; width: 50%;">Add Item</button>
+        <input type="text" placeholder="Add item to the list" id="addtodo" autocomplete="off">
+        <input type="date" id="date">
+        <label for="fromtime" style="color: whitesmoke;">From</label>
+        <input type="time" id="fromtime">
+        <label for="totime" style="color: whitesmoke;">To</label>
+        <input type="time" id="totime"><br>
+        <button type="submit">Add Item</button>
     </form><br><br>
     <table id="myTable">
         <tr>
             <th>To-DO List</th>
             <th>Date</th>
-            <th>Delete Value</th>
+            <th>Time</th>
+            <th style="width:10%;">Delete Value</th>
         </tr>
         <tbody id="result" class="container2"></tbody>
     </table>
